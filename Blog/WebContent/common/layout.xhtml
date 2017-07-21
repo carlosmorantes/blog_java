@@ -17,14 +17,18 @@
 	
 	<h:body>
 		<ui:insert name="header">
-			<ui:include src="header.xhtml" />
+			<ui:include src="/common/header.xhtml" />			
 		</ui:insert>
 		
-		<ui:insert name="content">			
+		<ui:insert name="languages">
+			<ui:include src="languages.xhtml"></ui:include>
+		</ui:insert>
+		
+		<ui:insert name="content">
 		</ui:insert>
 		
 		<ui:insert name="footer">
-			<ui:include src="/common/footer.xhtml" />
+			<ui:include src="footer.xhtml" />
 		</ui:insert>
 	</h:body>
 	

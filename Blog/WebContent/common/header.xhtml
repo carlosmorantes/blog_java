@@ -10,11 +10,11 @@
 					<a class="navbar-brand" href="#">WebSiteName</a>
 				</div>
 				<ul class="nav navbar-nav">
-					<li><h:link outcome="index" value="Home" /></li>
-					<li><h:link outcome="info" value="Info" /></li>
-					<li><h:link outcome="about" value="About" /></li>
+					<li><h:link outcome="index" value="#{msg.home}" /></li>
+					<li><h:link outcome="info" value="#{msg.info}" /></li>
+					<li><h:link outcome="about" value="#{msg.about}" /></li>
 				</ul>
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right">				
 					<li><h:link outcome="register"><span class="glyphicon glyphicon-user"></span> Sign Up</h:link></li>
 					<li><h:link outcome="signin"><span class="glyphicon glyphicon-log-in"></span> Login</h:link></li>				
 				</ul>
