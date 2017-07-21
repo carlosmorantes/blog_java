@@ -1,0 +1,15 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<body>
+	<ui:composition>
+		<h:form>
+			<h:commandLink value="EN" action="#{languageController.changeLocale('en')}" />
+		</h:form>
+		<h:form>
+			<h:commandLink value="DE" action="#{languageController.changeLocale('de')}" />
+		</h:form>
+	</ui:composition>
+</body>
+</html>
